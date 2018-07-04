@@ -1,4 +1,4 @@
-# cordova-plugin-audioroute
+# cordova-plugin-audio-route
 
 **This plugin works on iOS only.**
 
@@ -10,12 +10,12 @@ and also to query and override the audio device in use.
 
 The plugin can be installed using the Cordova CLI tool:
 
-    cordova plugin add cordova-plugin-audioroute --save
+    cordova plugin add cordova-plugin-audio-route --save
 
 
 ## API
 
-All these functions are available in the `cordova.plugins.audioroute` namespace.
+All these functions are available in the `window.AudioRoute` namespace.
 
 ### currentOutputs(successCallback, errorCallback)
 
@@ -61,8 +61,10 @@ Example:
 
 MIT
 
-
 ## Author
+Buu Huynh <htqbuu@gmail.com>
+
+## Credits
 
 Saúl Ibarra Corretgé <saghul@gmail.com>
 

@@ -1,5 +1,6 @@
 #import <AVFoundation/AVFoundation.h>
-#import <Cordova/CDV.h>
+#import <Cordova/CDVPlugin.h>
+#import <Cordova/CDVInvokedUrlCommand.h>
 
 @interface AudioRoute :CDVPlugin {
     NSString* callbackId;
