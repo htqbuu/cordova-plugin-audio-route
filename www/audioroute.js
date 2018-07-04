@@ -6,8 +6,8 @@ function AudioRoute() {
 AudioRoute.prototype.currentOutputs = function(successCallback, errorCallback) {
     cordova.exec(successCallback, errorCallback, 'AudioRoute', 'currentOutputs', []);
 };
-AudioRoute.prototype.currentBluetoothUIDs = function(successCallback, errorCallback) {
-    cordova.exec(successCallback, errorCallback, 'AudioRoute', 'currentBluetoothUIDs', []);
+AudioRoute.prototype.currentBluetoothDevices = function(successCallback, errorCallback) {
+    cordova.exec(successCallback, errorCallback, 'AudioRoute', 'currentBluetoothDevices', []);
 };
 
 AudioRoute.prototype.overrideOutput = function(output, successCallback, errorCallback) {
