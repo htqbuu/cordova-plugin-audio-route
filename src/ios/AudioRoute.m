@@ -111,7 +111,6 @@ NSString *const kRouteConfigurationChange   = @"route-config-change";
             [outputs addObject:kUnknown];
         }
     }
-    [self currentBluetoothUIDs:nil];
     pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsArray:[outputs copy]];
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
